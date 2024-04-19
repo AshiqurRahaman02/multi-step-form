@@ -11,7 +11,7 @@ import Final from "./Final";
 function Form() {
 	const data = mathFormData;
 
-	const [active, setActive] = useState(6);
+	const [active, setActive] = useState(0);
 
 	return (
 		<div style={{ maxWidth: "1000px" }} className="m-auto mt-16 p-8">
